@@ -10,6 +10,11 @@ body {
     margin: 0 auto;
 }
 
+.canvas {
+    width: 1200px;
+    margin: 0 auto;
+}
+
 .content_in_banner {
     text-align: center;
     padding: 50px 300px;
@@ -25,6 +30,16 @@ body {
     font-size: 20px;
     color: #ffffff;
     padding: 0px 80px 0px 80px;
+}
+
+.anchor_location {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #FF5959;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
 /*.banner_section {
@@ -46,7 +61,7 @@ body {
 }
 */
 .banner_section {
-    min-height: 100%;
+    min-height: 600px;
     background-color: black;
     background-size: cover;
     position: relative;
@@ -64,3 +79,53 @@ body {
     opacity: 0.3;
 }
 */
+.donate {
+    min-height: 400px;
+
+}
+
+.donate_content {
+    text-align: center;
+}
+
+.donate_content h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.donate_content p {
+    padding: 0px 100px;
+}
+
+.donate_content ul {
+    padding-top: 50px;
+}
+
+.donate_content ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 30px;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+#different_list {
+    border: 2px solid;
+    color: #FF5959;
+    border-radius: 5px;
+
+}
+
+#enter_taka {
+    margin-top: 50px;
+    padding: 20px 200px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+#enter_taka::placeholder {
+    font-size: 20px;
+    width: 100%;
+    padding-right: 10px;
+}
