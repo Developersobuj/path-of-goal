@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+    font-family: 'Anek Malayalam', sans-serif;
+    font-family: 'Poppins', sans-serif
+}
+
+.full_width {
+    width: 1400px;
+
+    margin: 0 auto;
+}
+
+.content_in_banner {
+    text-align: center;
+    padding: 50px 300px;
+
+}
+
+.content_in_banner h1 {
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.content_in_banner p {
+    font-size: 20px;
+    color: #ffffff;
+    padding: 0px 80px 0px 80px;
+}
+
+/*.banner_section {
+    height: 600px;
+    background-image: url(images/donation0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner_section:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+}
+*/
+.banner_section {
+    min-height: 100%;
+    background-color: black;
+    background-size: cover;
+    position: relative;
+}
+
+/*
+.banner_section:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: black;
+    opacity: 0.3;
+}
+*/
