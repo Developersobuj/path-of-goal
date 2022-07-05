@@ -24,6 +24,7 @@ body {
 .content_in_banner h1 {
     font-size: 50px;
     color: #ffffff;
+
 }
 
 .content_in_banner p {
@@ -42,14 +43,16 @@ body {
     border-radius: 5px;
 }
 
-/*.banner_section {
+.banner_section {
     height: 600px;
     background-image: url(images/donation0.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
 }
 
+/*
 .banner_section:before {
     content: "";
     position: absolute;
@@ -68,16 +71,27 @@ body {
 }
 
 /*
-.banner_section:before {
+.banner_section:after {
     content: "";
-    position: absolute;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
-    background: black;
-    opacity: 0.3;
+
 }
+
+.banner_section:before {
+    content: "";
+    position: absolute;
+    color: white;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: gray;
+    opacity: 0.5;
+}
+
 */
 .donate {
     min-height: 400px;
@@ -88,9 +102,9 @@ body {
     text-align: center;
 }
 
-.donate_content h1 {
+.donate_section_header {
     font-size: 50px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .donate_content p {
@@ -121,11 +135,40 @@ body {
     margin-top: 50px;
     padding: 20px 200px;
     border: none;
-    border-bottom: 1px solid gray;
+}
+
+hr {
+    margin: 0px 250px;
 }
 
 #enter_taka::placeholder {
     font-size: 20px;
     width: 100%;
     padding-right: 10px;
+}
+
+.donate_plan {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.donate_plan_head {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.for_card {
+    display: flex;
+    text-align: left;
+    margin-top: 50px;
+
+}
+
+.card {
+    margin: 0px 10px 0px 0px;
+    padding: 10px;
+}
+
+.active_card {
+    background-color: #FFF4D6;
 }
