@@ -226,4 +226,11 @@ footer {
 footer h1 {
     color: #FF5959;
     padding-top: 20px;
+    font-family: 'Tapestry', cursive;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Tapestry', cursive;
 }
